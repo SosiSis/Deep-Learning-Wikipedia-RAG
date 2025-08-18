@@ -1,0 +1,6 @@
+What problem does batch normalization solve, and how does it change the optimization landscape?
+Compare GRU vs LSTM trade-offs and typical use cases.
+Derive the backpropagation update for cross-entropy with softmax.
+Why does dropout act as regularization? What are its limitations?
+Explain attention vs self-attention and why Transformers scale better than RNNs.
+What is vanishing/exploding gradients and how do residual connections help?

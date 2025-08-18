@@ -1,0 +1,10 @@
+langchain==0.2.14
+langchain-community==0.2.12
+langchain-core==0.2.38
+langchain-text-splitters==0.2.2
+langchain-groq==0.1.9
+faiss-cpu==1.8.0.post1
+sentence-transformers==3.0.1
+wikipedia==1.4.0
+python-dotenv==1.0.1
+gradio==4.44.0
