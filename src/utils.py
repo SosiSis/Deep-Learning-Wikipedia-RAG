@@ -5,7 +5,7 @@ from langchain.docstore.document import Document
 from typing import List
 import os
 
-from settings import EMBED_MODEL, INDEX_DIR, CHUNK_SIZE, CHUNK_OVERLAP
+from src.settings import EMBED_MODEL, INDEX_DIR, CHUNK_SIZE, CHUNK_OVERLAP
 
 def get_text_splitter():
     return RecursiveCharacterTextSplitter(

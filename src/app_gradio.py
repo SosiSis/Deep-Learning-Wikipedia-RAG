@@ -1,5 +1,5 @@
 import gradio as gr
-from app_cli import ask
+from src.app_cli import ask
 
 with gr.Blocks() as demo:
     gr.Markdown("# Deep Learning Wikipedia RAG ")

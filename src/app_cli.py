@@ -3,9 +3,9 @@ from langchain.prompts import ChatPromptTemplate
 from langchain.schema.runnable import RunnablePassthrough
 from langchain_groq import ChatGroq
 
-from settings import GROQ_API_KEY, GROQ_MODEL, TOP_K
-from prompts import SYSTEM_PROMPT, ANSWER_FORMAT_HINT
-from utils import load_faiss_index
+from src.settings import GROQ_API_KEY, GROQ_MODEL, TOP_K
+from src.prompts import SYSTEM_PROMPT, ANSWER_FORMAT_HINT
+from src.utils import load_faiss_index
 
 def build_chain():
     if not GROQ_API_KEY:
