@@ -1,12 +1,7 @@
+ [![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/SosiSis/Deep-Learning-Wikipedia-RAG)
 
 
 # Deep Learning Wikipedia RAG (LangChain + Groq)
-
-
-<div align="left">
-	<img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face Logo" height="40" style="vertical-align:middle; margin-right:10px;"/>
-	<a href="https://huggingface.co/spaces/SosiSis/Deep-Learning-Wikipedia-RAG" style="font-size:1.2em; vertical-align:middle;"><b>Open Gradio (deployed version)</b></a>
-</div>
 
 A focused RAG assistant that answers deep-learning questions using a small, curated subset of Wikipedia.
 
